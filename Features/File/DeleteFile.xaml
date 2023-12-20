@@ -1,0 +1,14 @@
+﻿<Window x:Class="TechZadanie.Features.File.DeleteFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TechZadanie.Features.File"
+        mc:Ignorable="d"
+        Title="DeleteFile" Height="351" Width="625" Background="AliceBlue">
+    <Grid Margin="0,0,10,6">
+        <TextBox x:Name="FileNameBox" HorizontalAlignment="Left" Margin="119,0,0,0" TextWrapping="Wrap" Text="Имя файла" VerticalAlignment="Center" Width="266" Height="37"  />
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="433,0,0,0" VerticalAlignment="Center" Height="33" Width="115" Click="Button_Click"/>
+
+    </Grid>
+</Window>
